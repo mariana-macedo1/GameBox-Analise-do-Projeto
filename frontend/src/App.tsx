@@ -24,7 +24,7 @@ export default function App() {
           <Route path="*" element={<p className="container muted">Página não encontrada.</p>} />
         </Routes>
       </main>
-      <footer className="footer muted small">GameBoxe · Projeto acadêmico de Análise de Requisitos de Software</footer>
+      <footer className="footer muted small">GameBox · Projeto acadêmico de Análise de Requisitos de Software</footer>
     </>
   );
 }

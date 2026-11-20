@@ -29,7 +29,7 @@ export default function Home() {
       <section className="hero">
         <div className="container">
           <h1>Descubra, avalie e compartilhe <span>seus jogos favoritos</span></h1>
-          <p className="muted">A comunidade GameBoxe reúne notas e opiniões sobre os maiores títulos.</p>
+          <p className="muted">A comunidade GameBox reúne notas e opiniões sobre os maiores títulos.</p>
           <input className="search" type="search" placeholder="Pesquisar jogo pelo nome…"
             value={search} onChange={(e) => setSearch(e.target.value)} />
         </div>
